@@ -1,0 +1,55 @@
+body{
+    background-image: url("bcph.jpg");
+}
+.Container{
+    display: block;
+    width: 100%;
+    margin:0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    max-width: 800px;
+}
+h2{
+    text-align: center;
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+    font-size: 300%;
+}
+
+  .row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;;
+  }
+  .Headings {
+    width: 100px; 
+  }
+  .card {
+   float: right;
+  }
+  .card-img-top{
+    width: 250px;
+    height: 300px;
+  }
+  .card-title{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rebeccapurple;
+  }
+ .card-text{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rebeccapurple;
+  }
+  .cardtitle {
+   font-size: 20px;
+  }
+  .cardtext{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    justify-content: space-between;
+  }
+
