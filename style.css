@@ -1,55 +1,186 @@
-body{
-    background-image: url("bcph.jpg");
+body {
+    background-image: url("d.jpg");
 }
-.Container{
+
+.rowHeadings {
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: black;
+}
+.Headings {
+    width: 100px; 
+  }
+.cardtext{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: space-between;
     display: block;
     width: 100%;
     margin:0 auto;
     padding: 20px;
     box-sizing: border-box;
     max-width: 800px;
-}
-h2{
-    text-align: center;
-}
-h1{
-    color: aliceblue;
-    text-align: center;
-    font-size: 300%;
-}
-
-  .row {
-    width: 100%;
+    color:darkblue
+  }
+  .bottom {
+    width: 100px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     margin: 0 auto;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
-  .Headings {
-    width: 100px; 
+  .Bottoms {
+    width: 100px;
+    padding: 30px;
+    background-color: #f0f0f0;
   }
-  .card {
-   float: right;
-  }
-  .card-img-top{
-    width: 250px;
-    height: 300px;
-  }
-  .card-title{
-    font-size: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rebeccapurple;
-  }
- .card-text{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rebeccapurple;
-  }
-  .cardtitle {
-   font-size: 20px;
-  }
-  .cardtext{
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  .cardtext1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     justify-content: space-between;
+    display: block;
+    width: 100%;
+    margin:0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    max-width: 800px;
+    color:darkblue
   }
+  .cardtext2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: space-between;
+    display: block;
+    width: 100%;
+    margin:0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    max-width: 800px;
+    color:darkblue
+  }
+  .cardtext3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: space-between;
+    display: block;
+    width: 100%;
+    margin:0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    max-width: 800px;
+    color:darkblue
+  }
+  .cardtext4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: space-between;
+    display: block;
+    width: 100%;
+    margin:0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    max-width: 800px;
+    color:darkblue
+  }
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  h1{
+    font-style: italic;
+    text-align: center;
 
+  }
+  #Newsbutton{
+    width: auto;
+  }
+  #cardtext{
+    display: none;
+  }
+  #cardtext1{
+    display:  none;
+  }
+  #cardtext2{
+    display:  none;
+  }
+  #cardtext3{
+    display:  none;
+  }
+  #cardtext4{
+    display:  none;
+  }
+  .homecontent{
+    display: block;
+    padding: 12px 16px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 30px;
+   
+  }
+  .homecontent1{
+    display: block;
+    padding: 12px 16px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+   
+  }
